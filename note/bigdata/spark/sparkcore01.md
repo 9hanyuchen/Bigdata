@@ -174,3 +174,17 @@ sc.parallelize(List(("a",1),("b",2),("c",3),("a",99))).reduceByKey(_+_)
 
 
 
+## 9. zipWithIndex
+
+代码里有runjob 就是action. e.g. reduce
+
+
+
+- zipWithIndex可以转成k v
+
+![image-20191007192843826](sparkcore02.assets/image-20191007192843826.png)
+
+
+
+
+
